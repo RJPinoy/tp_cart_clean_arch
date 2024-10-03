@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.li-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  padding: 0 10px;
+  transition: 0.5s;
+}
+
+.li-product:hover {
+  background-color: grey;
+  opacity: 0.9;
+}
+
+.li-product i {
+  cursor: pointer;
+}
